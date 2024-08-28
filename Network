@@ -1,0 +1,35 @@
+  const bbtestnet = {
+        id: 19481,
+        name: "competitive-jubilee-ade292a2",
+        network: "bbtestnet",
+        nativeCurrency: {
+          decimals: 18,
+          name: "Native Token",
+          symbol: "Native Token",
+        },
+        rpcUrls: {
+          public: { http: ["https://rpc.buildbear.io/competitive-jubilee-ade292a2"] },
+          default: { http: ["https://rpc.buildbear.io/competitive-jubilee-ade292a2"] },
+        },
+        blockExplorers: {
+          etherscan: {
+            name: "BBExplorer",
+            url: "https://explorer.buildbear.io/competitive-jubilee-ade292a2",
+          },
+          default: {
+            name: "BBExplorer",
+            url: "https://explorer.buildbear.io/competitive-jubilee-ade292a2",
+          },
+        },
+      } as const satisfies Chain;
+      
+  const { chains, publicClient, webSocketPublicClient } = configureChains(
+        [bbtestnet],
+        [
+          jsonRpcProvider({
+            rpc: (chain) => ({
+              http: "https://rpc.buildbear.io/competitive-jubilee-ade292a2",
+            }),
+          }),
+        ]
+      );

@@ -1,6 +1,6 @@
 If you are adding a new RPC, please answer the following questions.
 
-#### Link the service provider's website (the company/protocol/individual providing the RPC):
+#### Link the service provider's website (the company/protocol/individual providing the RPC):https://rpc.buildbear.io/competitive-jubilee-ade292a2
 
 
 #### Provide a link to your privacy policy:

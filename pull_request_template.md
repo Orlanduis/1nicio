@@ -4,8 +4,8 @@ If you are adding a new RPC, please answer the following questions.
 
 
 #### Provide a link to your privacy policy:
+https://www.buildbear.io/privacy-policy
 
-
-#### If the RPC has none of the above and you still think it should be added, please explain why:
+#### If the RPC has none of the above and you still think it should be added, please explain why:https://rpc.buildbear.io/competitive-jubilee-ade292a2
 
 Your RPC should always be added at the end of the array.

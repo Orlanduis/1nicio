@@ -1,0 +1,16 @@
+etherscan: {
+  enable: true,
+    apiKey: {
+      buildbear: "verifyContract",
+    },
+    customChains: [
+      {
+        network: "buildbear",
+        chainId: 19845,
+        urls: {
+          apiURL: "https://rpc.buildbear.io/verify/etherscan/scientific-northstar-8d3ee49b",
+          browserURL: "https://explorer.buildbear.io/scientific-northstar-8d3ee49b",
+        },
+      },
+    ],
+  }

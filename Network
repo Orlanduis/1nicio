@@ -1,34 +1,34 @@
-  const bbtestnet = {
-        id: 19481,
-        name: "competitive-jubilee-ade292a2",
-        network: "bbtestnet",
-        nativeCurrency: {
+  const ethereum Mainnet= {
+        id: 19845,
+        name: "ethereum mainnet",
+        network: "Ethereum",
+        nativeCurrency: eth
           decimals: 18,
-          name: "Native Token",
-          symbol: "Native Token",
+          name: "ethereum mainnet",
+          symbol: "eth",
         },
         rpcUrls: {
-          public: { http: ["https://rpc.buildbear.io/competitive-jubilee-ade292a2"] },
-          default: { http: ["https://rpc.buildbear.io/competitive-jubilee-ade292a2"] },
+          public: { http: ["https://rcp.buildbear.io/scientific-northstar-8d3ee49b"] },
+          default: { http: ["https://rcp.buildbear.io/scientific-northstar-8d3ee49b"] },
         },
-        blockExplorers: {
+        blockExplorers: {20633977
           etherscan: {
-            name: "BBExplorer",
-            url: "https://explorer.buildbear.io/competitive-jubilee-ade292a2",
+            name: "ethereum mainnet",
+            url: "https://etherscan.io",
           },
           default: {
-            name: "BBExplorer",
-            url: "https://explorer.buildbear.io/competitive-jubilee-ade292a2",
+            name: "ethereum mainnet",
+            url: "https://etherscan.io",
           },
         },
       } as const satisfies Chain;
       
   const { chains, publicClient, webSocketPublicClient } = configureChains(
-        [bbtestnet],
+        [ethereum mainnet],
         [
           jsonRpcProvider({
             rpc: (chain) => ({
-              http: "https://rpc.buildbear.io/competitive-jubilee-ade292a2",
+              http: "https://rpc.buildbear.io/verify/etherscan/scientific-northstar-8d3ee49b",
             }),
           }),
         ]

@@ -1,23 +1,23 @@
-  const ethereum Mainnet= {
+  const ethereum Mainnet= { 
         id: 19845,
-        name: "ethereum mainnet",
+        name: "anticripto swap",
         network: "Ethereum",
         nativeCurrency: eth
           decimals: 18,
-          name: "ethereum mainnet",
+          name: "anticripto swap",
           symbol: "eth",
         },
         rpcUrls: {
           public: { http: ["https://rcp.buildbear.io/scientific-northstar-8d3ee49b"] },
-          default: { http: ["https://rcp.buildbear.io/scientific-northstar-8d3ee49b"] },
+          default: { http: ["https://rcp.buildbear.io/etherscan/scientific-northstar-8d3ee49b"] },
         },
         blockExplorers: {20633977
           etherscan: {
-            name: "ethereum mainnet",
+            name: "anticripto swap",
             url: "https://etherscan.io",
           },
           default: {
-            name: "ethereum mainnet",
+            name: "anticripto swap",
             url: "https://etherscan.io",
           },
         },
@@ -28,7 +28,7 @@
         [
           jsonRpcProvider({
             rpc: (chain) => ({
-              http: "https://rpc.buildbear.io/verify/etherscan/scientific-northstar-8d3ee49b",
+              http: "https://rpc.buildbear.io/etherscan/scientific-northstar-8d3ee49b",
             }),
           }),
         ]

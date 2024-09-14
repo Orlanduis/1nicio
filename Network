@@ -8,10 +8,10 @@
           symbol: "eth",
         },
         rpcUrls: {
-          public: { http: ["https://rcp.buildbear.io/scientific-northstar-8d3ee49b"] },
-          default: { http: ["https://rcp.buildbear.io/etherscan/scientific-northstar-8d3ee49b"] },
+          public: { http: ["https://virtual.mainnet.rpc.tenderly.co/a6f2e2a3-1e3a-4f14-93df-69fda2461eb4"] },
+          default: { http: ["https://virtual.mainnet.rpc.tenderly.co/c97b21ff-b8c2-4a2b-b99f-52e09f6537b1"] },
         },
-        blockExplorers: {20633977
+        blockExplorers: {20724265
           etherscan: {
             name: "anticripto swap",
             url: "https://etherscan.io",
@@ -27,8 +27,8 @@
         [ethereum mainnet],
         [
           jsonRpcProvider({
-            rpc: (chain) => ({
-              http: "https://rpc.buildbear.io/etherscan/scientific-northstar-8d3ee49b",
+            rpc: (chain) => ({https://virtual.mainnet.rpc.tenderly.co/c97b21ff-b8c2-4a2b-b99f-52e09f6537b1
+              http: "https://virtual.mainnet.rpc.tenderly.co/a6f2e2a3-1e3a-4f14-93df-69fda2461eb4",
             }),
           }),
         ]

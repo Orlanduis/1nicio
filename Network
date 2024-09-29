@@ -1,10 +1,10 @@
-  const ethereum Mainnet= { 
+  const ethereum anticripto= { 
         id: 19845,
-        name: "anticripto swap",
+        name: "anticripto network",
         network: "Ethereum",
         nativeCurrency: eth
           decimals: 18,
-          name: "anticripto swap",
+          name: "anticripto network",
           symbol: "eth",
         },
         rpcUrls: {
@@ -13,18 +13,18 @@
         },
         blockExplorers: {20724265
           etherscan: {
-            name: "anticripto swap",
+            name: "anticripto network",
             url: "https://etherscan.io",
           },
           default: {
-            name: "anticripto swap",
+            name: "anticripto network",
             url: "https://etherscan.io",
           },
         },
       } as const satisfies Chain;
       
   const { chains, publicClient, webSocketPublicClient } = configureChains(
-        [ethereum mainnet],
+        [ethereum anticripto],
         [
           jsonRpcProvider({
             rpc: (chain) => ({https://virtual.mainnet.rpc.tenderly.co/c97b21ff-b8c2-4a2b-b99f-52e09f6537b1
